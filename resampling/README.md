@@ -19,7 +19,8 @@ In this tutorial, i’ll cover the following methods for evaluating machine lear
 The train-test split evaluation technique involves taking your original dataset and splitting it into two parts - a training set used to train your machine learning model and a a testing set used to evaluate your model.
 
 After splitting your dataset you can train your model on the first partition of the dataset (i.e., the train split) and then evaluate your model by making predictions about the second partition of the dataset (i.e., the test split). The relative size of the train and test splits can vary, but in general 65-75% of your dataset should be used for training while the remaining 25-35% is used for evaluation.
-![resampling](resampling/images/resampling1.png)
+
+![resampling](images/resampling1.png)
 (Fig 1: First the full dataset is separated into features (inputs) and targets (outputs). Then a train-test split is performed, resulting in training inputs (x_train) and outputs (y_train) as well as testing inputs (x_test) and outputs (y_test).)
 
 
@@ -64,7 +65,8 @@ k-fold cross-validation works by splitting a dataset into k-parts, where k repre
 
 What makes k-fold cross-validation so powerful is that each of your folds is held back and used for testing once. So, for example, if k=4, then you evaluate your model four times, and each time a different fold is used for testing while the other three are used to train your model, as demonstrated in the image below. This results in four performance scores, which can be averaged to determine how well your model performs. 
 
-![resampling](resampling/images/resampling2.png)
+![resampling2](images/resampling2.png)
+
 (Fig. 2 - This figure depicts how k-fold cross validation works, using k=4 as an example. Note that on each fold there are k-1 training training splits and 1 testing split.)
 
 When performing k-fold cross-validation, the most critical decision you'll have to make is how large your k is (i.e., how many splits or folds you create). For moderate-sized datasets (thousands or tens of thousands of rows), k-values of 5-10 are common, whereas k-values of 3-5 are more appropriate for smaller datasets.
