@@ -19,7 +19,7 @@ Because it's so easy to calculate and interpret, classification accuracy is the 
 
 Below you'll find sample code using classification accuracy (in conjunction with k-fold cross-validation) to determine the effectiveness of a machine learning model:
 ```
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import KFold
 from sklearn.model_selection mport cross_val_score
@@ -57,7 +57,7 @@ For example, let's say we're predicting whether or not a patient has COVID. If w
 
 Below you'll find a sample code generating confusion matrix for the Pima Diabetes dataset:
 ```
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import tran_test_split
 from sklearn.model_selection mport LogisticRegression
@@ -110,7 +110,7 @@ A classification report provides a snapshot of a machine learning model’s perf
 
 Below you’ll find a sample code demonstrating how to generate a classification report using the Pima Diabetes dataset as an example: 
 ```
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import tran_test_split
 from sklearn.model_selection mport LogisticRegression
@@ -147,7 +147,7 @@ The area under the ROC curve is an evaluation metric for binary classification p
 
 Below you’ll find a sample code to calculate the area under the ROC curve using the Pima Diabetes dataset as an example:
 ```
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import KFold
 from sklearn.model_selection mport cross_val_score
@@ -184,7 +184,7 @@ The closer the logloss score is to 1, then more the predicted probability diverg
 
 Below you’ll find a sample code to calculate logistic loss using the Pima Diabetes dataset as an example:
 ```
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import KFold
 from sklearn.model_selection mport cross_val_score
