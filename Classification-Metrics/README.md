@@ -27,7 +27,7 @@ from sklearn.linear_model import LogisticRegression
 
 # Load data
 filename = 'diabetes.csv'
-names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI',diabetes_pedigree','age','outcome']
+names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI','diabetes_pedigree','age','outcome']
 data = read_csv(filename, names=names)
 
 # create array w/ data and seperate array into input/outputs
@@ -65,7 +65,7 @@ from sklearn.linear_model import confusion_matrix
 
 # Load data
 filename = 'diabetes.csv'
-names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI',diabetes_pedigree','age','outcome']
+names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI','diabetes_pedigree','age','outcome']
 data = read_csv(filename, names=names)
 
 # Create array w/ data and seperate array into input/outputs
@@ -118,7 +118,7 @@ from sklearn.linear_model import classification_report
 
 # Load data
 filename = 'diabetes.csv'
-names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI',diabetes_pedigree','age','outcome']
+names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI','diabetes_pedigree','age','outcome']
 data = read_csv(filename, names=names)
 
 # Create array w/ data and seperate array into input/outputs
@@ -155,7 +155,7 @@ from sklearn.linear_model import LogisticRegression
 
 # Load data
 filename = 'diabetes.csv'
-names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI',diabetes_pedigree','age','outcome']
+names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI','diabetes_pedigree','age','outcome']
 data = read_csv(filename, names=names)
 
 # create array w/ data and seperate array into input/outputs
@@ -192,7 +192,7 @@ from sklearn.linear_model import LogisticRegression
 
 # Load data
 filename = 'diabetes.csv'
-names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI',diabetes_pedigree','age','outcome']
+names = ['pregnancies', 'glucose', 'DBP', 'skinfold','insulin','BMI','diabetes_pedigree','age','outcome']
 data = read_csv(filename, names=names)
 
 # create array w/ data and seperate array into input/outputs
