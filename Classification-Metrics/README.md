@@ -87,7 +87,7 @@ confusion_matrix = confusion_matrix(y_test, predictions)
 print(confusion_matrix)
 ```
 Which results in the following output (with added interpretations):
-![confusion matrix](images/confusion_matrix2.png)
+![confusion matrix 2](images/confusion_matrix2.jpg)
 
 After generating a confusion matrix, you can manually calculate the precision, recall, and f1-score. 
 
