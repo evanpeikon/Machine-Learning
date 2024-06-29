@@ -1,4 +1,4 @@
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import tran_test_split
 from sklearn.model_selection mport LogisticRegression
