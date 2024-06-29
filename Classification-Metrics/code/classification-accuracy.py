@@ -1,4 +1,4 @@
-# Import libraris
+# Import libraries
 from pandas import read_csv
 from sklearn.model_selection import KFold
 from sklearn.model_selection mport cross_val_score
