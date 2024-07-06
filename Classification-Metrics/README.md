@@ -1,4 +1,6 @@
-# What Are Evaluation (Performance) Metrics?
+# Evaluation Metrics for Classificaiton Problems
+
+## What Are Evaluation (Performance) Metrics?
 
 In a previous tutorial titled [Evaluating Machine Learning Models: An Introduction to Resampling Methods](https://github.com/evanpeikon/machine-learning/tree/main/resampling), I discussed evaluation methods, which estimate how well a given machine learning algorithm will perform at making predictions about unseen data. Example evaluation methods include train-test splitting, k-fold cross-validation, and leave one out cross-validation.
 
@@ -11,7 +13,7 @@ In the aforementioned tutorial I covered a handful of common evaluation methods,
 - The **area under the ROC curve**, which represents a machine learning model’s ability to accurately discriminate between output classes; and
 - **Logistic loss**, which represents the confidence for a given algorithms predictive capabilities.
 
-# Classification Accuracy:
+## Classification Accuracy:
 
 Classification accuracy is the percentage of all predictions that are made correctly. 
 
@@ -49,7 +51,7 @@ Which results in the following outputs:
 - Mean Accuracy: 77.08%
 - Accuracy Std.Dev.: 0.05
 
-# Confusion Matrix:
+## Confusion Matrix:
 A confusion matrix is a table that summarizes the prediction results for a classification problem with the predicted values on the x-axis and actual values on the y-axis, as demonstrated below:
 ![confusion matrix](images/confusion_matrix.png)
 
@@ -105,7 +107,7 @@ Finally, we have the f1-score, representing the harmonic mean of the precision a
   
 Fortunately, the ski kit-learn library provides a simple way to calculate precision, recall, and the f1-score, which is covered in the next section
 
-# Classification Report
+## Classification Report
 A classification report provides a snapshot of a machine learning model’s performance on classification problems. Specifically, a classification report displays the precision, recall, f1-score, and support (the number of actual occurrences for a given class). One benefit of a classification report is that it’s easy to interpret - the higher the precision, recall, and f1-score, the better. 
 
 Below you’ll find a sample code demonstrating how to generate a classification report using the Pima Diabetes dataset as an example: 
@@ -142,7 +144,7 @@ print(CR)
 Which generates the following output (with added interpretations):
 ![classification report](images/classification_report.jpg)
 
-# Area Under The Rate of Change Curve
+## Area Under The Rate of Change Curve
 The area under the ROC curve is an evaluation metric for binary classification problems representing a machine learning model's ability to discriminate between output classes. A model's area under the ROC curve is scored from 0.5 to 1.0, where higher scores indicate a greater ability to make correct predictions. For example, a score of 1.0 would mean that a machine learning model perfectly identifies patients with/without a disease, whereas a score of 0.5 would equate to random guessing. 
 
 Below you’ll find a sample code to calculate the area under the ROC curve using the Pima Diabetes dataset as an example:
@@ -177,7 +179,7 @@ Which results in the following output:
 - Area under ROC curve mean: 0.825
 - Area under ROC curve SD: 0.0500
 
-# Logistic Loss
+## Logistic Loss
 Logistic loss (aka logloss) is an evaluation metric that assess the predictions of probabilities of membership to a given output class. Logistic loss represents the confidence for a given algorithms predictive capabilities and is scored from 0-1. Additionally, correct and incorrect predictions are rewarded in proportion to the confidence of the prediction.
 
 The closer the logloss score is to 1, then more the predicted probability diverges from the actual value. Alternatively, a logloss value of 0 indicates perfect predictions.
