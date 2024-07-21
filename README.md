@@ -5,3 +5,4 @@ Each folder in this repository contains a stand alone machine learning tutorial,
 - [Evaluating Machine Learning Models: An Introduction to Resampling Methods](https://github.com/evanpeikon/machine-learning/tree/main/resampling)
 - [Evaluation Metrics For Classification Problems](https://github.com/evanpeikon/machine-learning/tree/main/Classification-Metrics)
 - [Evaluation Metrics For Regression Problems](https://github.com/evanpeikon/Machine-Learning/tree/main/Regression-metrics)
+- [Comparing Machine Learning Algorithms: Spot Checking For Regression and Classificaiton Problems](https://github.com/evanpeikon/Machine-Learning/tree/main/spot_checking)
