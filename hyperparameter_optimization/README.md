@@ -17,3 +17,5 @@ Before I show you how to use grid search and random search, you need to understa
 The image below visually represents the varying steps between identifying what type of machine learning problem you’re working with and deploying a functioning machine learning model that makes accurate predictions on unseen data. 
 
 You can see that hyperparameter tuning is one of the final steps before you create a pipeline to automate your workflow and deploy your model, as demonstrated below:
+
+<img src="images/DEA1.jpg" alt="Description" width="600" height="300">
