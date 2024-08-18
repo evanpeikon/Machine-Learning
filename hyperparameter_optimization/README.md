@@ -6,7 +6,7 @@ You can think of machine learning algorithms as systems with various knobs and d
 
 Parameters are model settings that are learned, adjusted, and optimized automatically. Conversely, hyperparameters need to be manually set manually by whoever is programming the machine learning algorithm. 
 
-Generally, tuning hyperparameters has known effects on machine learning algorithms. However, it’s not always clear how to best set a hyperparameter to optimize model performance for a specific dataset. As a result, search strategies are often used to find optimal hyperparameter configurations. In this newsletter, I’m going to cover the following hyperparameter tuning methods: 
+Generally, tuning hyperparameters has known effects on machine learning algorithms. However, it’s not always clear how to best set a hyperparameter to optimize model performance for a specific dataset. As a result, search strategies are often used to find optimal hyperparameter configurations. In this tutorial, I’m going to cover the following hyperparameter tuning methods: 
 - **Grid Search** is a cross-validation technique for hyperparameter tuning that finds an optimal parameter value among a given set of parameters specified in a grid; and
 - **Random Search** is a tuning technique that randomly samples a specified number of uniformly distributed algorithm parameters.
 
